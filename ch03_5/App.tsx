@@ -14,8 +14,7 @@ const App = () => {
         data={people}
         renderItem={({item}) => <Person person={item} />}
         keyExtractor={(item, index) => item.id}
-        ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
-        />
+        ItemSeparatorComponent={() => <View style={styles.itemSeparator} />} />
     </SafeAreaView>
   )
 }
